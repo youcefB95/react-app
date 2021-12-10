@@ -15,6 +15,7 @@ function App() {
         <Navbar />
         <Switch>
             <Route path='/' exact component={Home} />
+            <Route path='/react-app' exact component={Home} />
           <Route path='/about-me' component={AboutMe} />
           <Route path='/portfolios' component={Portfolio} />
           <Route path='/sign-up' component={SignUp} />
