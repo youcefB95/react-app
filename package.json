@@ -1,9 +1,9 @@
 {
-  "name": "portfolio",
-  "main":"src/index.js",
+  "name": "react-app",
+  "main": "src/index.js",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://youcefB95.github.io/",
+  "homepage": "https://youcefB95.github.io/react-app",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^11.2.7",
@@ -42,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "modclean": "^3.0.0-beta.1"
   }
 }
