@@ -15,11 +15,11 @@ function App() {
         <Navbar />
         <Switch>
             {/* <Route path='/' exact component={Home} /> */}
-            <Route path='/' exact component={Home} />
-          <Route path='/about-me' component={AboutMe} />
-          <Route path='/portfolio' component={Portfolio} />
-          <Route path='/sign-up' component={SignUp} />
-          <Route path='/resume' component={Resume} />
+            <Route path='/react-app' exact component={Home} />
+          <Route path='/react-app/about-me' component={AboutMe} />
+          <Route path='/react-app/portfolio' component={Portfolio} />
+          <Route path='/react-app/sign-up' component={SignUp} />
+          <Route path='/react-app/resume' component={Resume} />
         </Switch>
       </Router>
     </>
