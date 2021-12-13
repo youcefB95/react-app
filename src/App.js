@@ -11,7 +11,7 @@ import Resume from './components/pages/Resume';
 function App() {
   return (
     <>
-      <Router>
+      <Router basename="/react-app">
         <Navbar />
         <Switch>
             {/* <Route path='/' exact component={Home} /> */}
