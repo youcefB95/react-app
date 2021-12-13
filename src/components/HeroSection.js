@@ -12,7 +12,7 @@ function HeroSection() {
 
     <div className='hero-container'>
 
-      {/* <video src='/videos/video-5.mp4' autoPlay loop muted /> */}
+      {/* <video src='public/videos/video-6.mp4' autoPlay loop muted /> */}
 
 
       <h1>“Learning never exhausts the mind.”

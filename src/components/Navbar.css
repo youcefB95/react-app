@@ -16,24 +16,40 @@
 
 .logo-container{
   display : flex;
-  justify-content: center;
+  flex-direction: inline;
+  justify-content: start;
   align-items: center;
-  margin-right: 1rem;
- 
-  
+  /* border: 2px solid red; */
+  width: auto;
+  left:1rem;
+  position: fixed;
+  top:0rem;
+  height: 5rem;
+  padding:1rem;
 
 }
-.logo-container > .navbar-logo {
+
+.logo{
+  width : 4rem;
+  border-radius:50%;
+  /* position: fixed;
+  left : 3rem;
+  top : 0.3rem; */
+ 
+}
+
+
+/* .logo-container > .navbar-logo {
   position: absolute;
   
-}
+} */
 
-.logo-container > p {
+/* .logo-container > p {
 
   position: absolute;
   left : 7.5rem;
   font-size: 1.5rem;
-}
+} */
 
 .navbar-container {
   display: flex;
@@ -44,26 +60,27 @@
 }
 
 .navbar-logo {
+  /* position: fixed; */
   color: #fff;
   cursor: pointer;
   display: flex;
   align-items: center;
-  width : auto;
+  width : 100%;
   z-index:100000;
   
 }
 
-.logo{
-  width : 4rem;
-  border-radius:50%;
-  z-index:100000;
-  position: fixed;
-  left : 3rem;
-  padding : 1rem 0 1rem 0;
+
+
+.name{
+  color:black;
+  display: flex;
+  flex-direction: inline;
+ 
+  margin-right: 1rem;
   
-
+  
 }
-
 
 .fa-typo3 {
   margin-left: 0.5rem;

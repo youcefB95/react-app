@@ -29,7 +29,7 @@ function AboutMeSection() {
         </div>
 
         <div className="container-1-box2" id="aboutme-container-1-box2">
-          <img className='aboutMe-photo' src={process.env.PUBLIC_URL + "/images/logo.png"} height='400px'/>
+          <img className='aboutMe-photo' src={process.env.PUBLIC_URL + "/images/logo.png"} height='400px' />
         </div>
 
 
@@ -39,26 +39,12 @@ function AboutMeSection() {
 
       <div className="container-2" id="container-2">
 
-        {/* <div className="personal-details">
-        <div className="personal-details-title">
-<h1>Personal Details</h1>
-
-
-        </div>
-        <div className="personal-details-content">
-<p>A few interesting things about me. I love to read science fiction (my favorite is Frank Herbert's Dune). I am also an avid gamer. I love to play competitive strategy games and first-person shooters. Lastly, I love learning. Every day I push myself to learn something new, whether that be about machine learning, software engineering, or miscellaneous facts about the universe.
-
-On top of recently getting married and graduating with a masters in computer science from UT Dallas, I also recently started working as a senior data scientist at Capital One. My work mainly revolves around utilizing natural language processing to build a more intelligent customer experience.</p>
-
-
-        </div>
-        </div>
-        <hr/> */}
         <div id="container-2-box1">
-          <h1 >My Experience</h1>
+        <h1 >My Experience</h1>
 
           <ul class="timeline">
-
+        
+           
             {/* <!-- Item 1 --> */}
             <li>
               <div class="direction-r">

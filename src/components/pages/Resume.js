@@ -2,7 +2,7 @@ import React from 'react';
 import '../../App.css';
 // import { Document, Page } from 'react-pdf';
 
-import samplePDF from '../../assets/cv.pdf';
+import samplePDF from '../../assets/cv-youcef.pdf';
 
 export default function Resume() {
   return (

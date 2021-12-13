@@ -1,28 +1,16 @@
-// import React from 'react';
-// import './Button.css';
-// import { Link } from 'react-router-dom';
-
-// export function Button() {
-//   return (
-//     <Link to='sign-up'>
-//       <button className='btn'>Sign Up</button>
-//     </Link>
-//   );
-// }
-
 import React from 'react';
 import './Button.css';
 import { Link } from 'react-router-dom';
 
-const LINK_CLASSNAMES = ['btn-mobile','nav-links']
+const LINK_CLASSNAMES = ['btn-mobile', 'nav-links']
 
-const STYLES = ['btn--primary', 'btn--outline', 'btn--test','btn--navbar'];
+const STYLES = ['btn--primary', 'btn--outline', 'btn--test', 'btn--navbar'];
 
-const SIZES = ['btn--small','btn--medium', 'btn--large'];
+const SIZES = ['btn--small', 'btn--medium', 'btn--large'];
 
 export const Button = ({
   link_classname,
-  link_disable=false,
+  link_disable = false,
   route,
   target,
   children,

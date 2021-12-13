@@ -38,10 +38,16 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <div className='logo-container'>
-            <Link to='/' className='navbar-logo' onClick={closeMobileMenu} >
+            {/* <Link to='/' className='navbar-logo' onClick={closeMobileMenu} >
               <img className='logo' src={process.env.PUBLIC_URL + '/images/logo.png'} ></img>
-            </Link>
-            <p>Y. B.</p>
+            </Link> */}
+            <div className='navbar-logo'>
+
+              <a href='/' ><img className='logo' src={process.env.PUBLIC_URL + '/images/logo.png'} ></img></a>
+            </div>
+            <div className="name">
+              <h5>Y B</h5>
+            </div>
           </div>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -61,7 +67,7 @@ function Navbar() {
                 ABOUT ME
               </Link>
             </li>
-            <li className='nav-item'>
+            {/* <li className='nav-item'>
               <Link
                 to='/portfolio'
                 className='nav-links'
@@ -79,11 +85,13 @@ function Navbar() {
                 ARTICLES
               </Link>
             </li>
+            */}
+
             <li className='nav-item'>
               <Button
                 route='/resume'
-                link_classname = 'nav-links'
-                target = '_blank'
+                link_classname='nav-links'
+                target='_blank'
                 className='btn'   /* 'btn' */
                 buttonStyle='btn--navbar'
                 buttonSize='btn--small'
