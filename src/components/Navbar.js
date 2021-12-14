@@ -43,7 +43,7 @@ function Navbar() {
             </Link> */}
             <div className='navbar-logo'>
 
-              <a href='/' ><img className='logo' src={process.env.PUBLIC_URL + '/images/logo.png'} ></img></a>
+              <a href='/react-app' ><img className='logo' src={process.env.PUBLIC_URL + '/images/logo.png'} ></img></a>
             </div>
             <div className="name">
               <h5>Y B</h5>
